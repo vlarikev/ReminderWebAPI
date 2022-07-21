@@ -69,7 +69,7 @@ namespace ReminderWebAPI.Controllers
                         sqlReader.Close();
                         sqlCon.Close();
                     }
-                }//test
+                }
             }
             catch (MySqlException ex)
             {
